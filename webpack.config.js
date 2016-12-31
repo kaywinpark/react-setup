@@ -1,13 +1,18 @@
+var path = require('path');
+
+
 var config = {
-   entry: './index.js',
+   entry: './src/index.js',
 
    output: {
-      path:'./',
-      filename: 'bundle.js',
+      path: path.join(__dirname, '/src'),
+      publicPath: "/",
+      filename: 'bundle.js'
    },
 
    devServer: {
       inline: true,
+      contentBase: "./src",
       port: 8080
    },
 
