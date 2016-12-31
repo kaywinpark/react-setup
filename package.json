@@ -1,0 +1,29 @@
+{
+  "name": "react-setup",
+  "version": "1.0.0",
+  "description": "Development environment setup for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaywinpark/react-setup.git"
+  },
+  "keywords": [
+    "React",
+    "setup",
+    "React",
+    "setup"
+  ],
+  "author": "Thanathip Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaywinpark/react-setup/issues"
+  },
+  "homepage": "https://github.com/kaywinpark/react-setup#readme",
+  "dependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
